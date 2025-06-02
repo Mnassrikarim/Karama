@@ -1,7 +1,7 @@
 services:
   - type: web
     name: karama-backend
-    env: node
+    runtime: node
     region: oregon  # or frankfurt
     plan: free
     buildCommand: npm install
