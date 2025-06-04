@@ -8,7 +8,7 @@ services:
     startCommand: node server.js
     envVars:
       - key: MONGODB_URI
-        value: mongodb+srv://karama:pfe9112000@cluster0.tqczpsm.mongodb.net/db_kara?retryWrites=true&w=majority&appName=Cluster0
+        value: mongodb+srv://karauser:newPass123@cluster0.tqczpsm.mongodb.net/kara-learndb?retryWrites=true&w=majority&appName=Cluster0
       - key: JWT_SECRET
         value: your_jwt_secret
       - key: PORT
